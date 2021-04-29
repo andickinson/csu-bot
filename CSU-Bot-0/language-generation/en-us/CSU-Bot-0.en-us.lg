@@ -1,0 +1,52 @@
+[import](common.lg)
+
+# SendActivity_Welcome
+- ${WelcomeUser()}
+
+# SendActivity_003038
+- You said '${turn.activity.text}'
+
+# SendActivity_MD5atE()
+[Activity
+    Text = Please refer to this article about how you can protect yourself online. https://www.esafety.gov.au/parents/big-issues/unwanted-contact#how-to-deal-with-unwanted-contact
+]
+
+# SendActivity_22eJFx()
+[Activity
+    Text = This is a common phone scam. Contact the ATO directly if you are concerned about the status of your account. https://www.ato.gov.au/General/Online-services/Identity-security/Scam-alerts/
+]
+
+# SendActivity_B82ok9()
+[Activity
+    Text = Please refer to the following help page on the ScamWatch website. https://www.scamwatch.gov.au/types-of-scams/attempts-to-gain-your-personal-information/identity-theft
+]
+
+# SendActivity_Tz0UOv()
+[Activity
+    Text = Change all your passwords immediately and contact your banking institutions. We recommend the use of a password manager. Please refer to this help article for more information: https://www.scamwatch.gov.au/types-of-scams/attempts-to-gain-your-personal-information/phishing
+]
+
+# SendActivity_4obcps()
+[Activity
+    Text = Check out tips from the ACCC for online shopping and internet banking. Stay up to date on news for current scams. https://www.accc.gov.au/consumers/online-shopping/internet-banking https://www.scamwatch.gov.au/news-alerts
+]
+
+# SendActivity_wkaO4K()
+[Activity
+    Text = This is a common phone scam. Please contact the ATO directly if you are concerned about the status of your account. https://www.ato.gov.au/general/online-services/identity-security/scam-alerts/
+]
+
+# SendActivity_NpC2Ud()
+[Activity
+    Text = Please refer to the information on the ScamWatch website. https://www.scamwatch.gov.au/types-of-scams/attempts-to-gain-your-personal-information/identity-theft
+]
+
+# SendActivity_ybI826()
+[Activity
+    Text = Change all your passwords immediately and contact your banking institutions. We recommend the use of a password manager. Please refer to more information in this help article: http://www.google.com.
+]
+
+# SendActivity_yZbYgb()
+[Activity
+    Text = Check out tips from the ACCC for online shopping and internet banking scams. Please also monitor ScamWatch to stay up to date on current scams. https://www.accc.gov.au/consumers/online-shopping/internet-banking https://www.scamwatch.gov.au/news-alerts
+]

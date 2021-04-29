@@ -1,0 +1,58 @@
+
+> LUIS application information
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 3.2.0
+
+
+> # Intent definitions
+
+# social-media
+- I have been contacted on social media by someone I don't know
+- social media
+- stranger
+- don't know
+
+
+# ato
+- I have been told I will be arrested by the ATO for unpaid tax bills
+- ATO
+- tax
+- arrest
+- warrant
+
+
+# identity-theft
+- I think someone has stolen and used my identity. What do I do?
+- stolen
+- stolen identity
+- identity
+- identity theft
+
+
+# password-scam
+- I gave out my password and think I have been scammed
+- password
+- scam
+
+
+# protect-online
+- How do I protect myself online?
+- protect
+- online
+
+
+> # Entity definitions
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+

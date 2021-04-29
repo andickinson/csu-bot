@@ -1,0 +1,12 @@
+{
+  "CSU-Bot-0.en-us": {
+    "rootDialog": true,
+    "triggers": {
+      "social-media": [],
+      "ato": [],
+      "identity-theft": [],
+      "password-scam": [],
+      "protect-online": []
+    }
+  }
+}

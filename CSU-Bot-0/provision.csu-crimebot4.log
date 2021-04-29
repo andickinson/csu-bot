@@ -1,0 +1,29 @@
+{
+  "profileName": "csu-crimebot4",
+  "jobId": "72b395a5-cdcb-45db-9b34-bfe0e27ad0e7",
+  "projectId": "43186.65407234397",
+  "time": "2021-04-26T11:59:35.192Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Creating Resource Group ...",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : c846f1e0-9c7f-4831-9da1-f84c8e9aa711",
+    "> Create App Registration Success! ID: c846f1e0-9c7f-4831-9da1-f84c8e9aa711",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Deploying Cosmos DB Resource ...",
+    "Deploying Application Insights Resource ...",
+    "> Linking Application Insights settings to Bot Service ...",
+    "> AppInsights AppId: 785568f1-3ab1-4c7a-93d4-e349d85b394c ...",
+    "> AppInsights InstrumentationKey: 87428c69-83f1-4ac7-918e-e935bff7d0ff ...",
+    "> AppInsights ApiKey: qj2ah7v1e4d4sfpc1b2dpe0hh0wp4pfta4a3kfzt ...",
+    "> Linking Application Insights settings to Bot Service Success!",
+    "Deploying Blob Storage Resource ...",
+    "Deploying Luis Authoring Resource ...",
+    "Deploying Luis Resource ...",
+    "{\"message\":\"request to https://management.azure.com/subscriptions/fa9881c6-97eb-469a-895f-01d05a730f84/resourceGroups/csu-crimebot4/providers/Microsoft.CognitiveServices/accounts/csu-crimebot4-luis?api-version=2017-04-18 failed, reason: connect ETIMEDOUT 13.77.53.32:443\",\"type\":\"system\",\"errno\":\"ETIMEDOUT\",\"code\":\"ETIMEDOUT\",\"stack\":\"FetchError: request to https://management.azure.com/subscriptions/fa9881c6-97eb-469a-895f-01d05a730f84/resourceGroups/csu-crimebot4/providers/Microsoft.CognitiveServices/accounts/csu-crimebot4-luis?api-version=2017-04-18 failed, reason: connect ETIMEDOUT 13.77.53.32:443\\n    at ClientRequest.<anonymous> (C:\\\\Users\\\\Andrew\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar\\\\node_modules\\\\node-fetch\\\\lib\\\\index.js:1455:11)\\n    at ClientRequest.emit (events.js:210:5)\\n    at TLSSocket.socketErrorListener (_http_client.js:406:9)\\n    at TLSSocket.emit (events.js:210:5)\\n    at emitErrorNT (internal/streams/destroy.js:92:8)\\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)\"}",
+    "{\"name\":\"CREATE_LUIS_ERROR\",\"message\":\"FetchError - request to https://management.azure.com/subscriptions/fa9881c6-97eb-469a-895f-01d05a730f84/resourceGroups/csu-crimebot4/providers/Microsoft.CognitiveServices/accounts/csu-crimebot4-luis?api-version=2017-04-18 failed, reason: connect ETIMEDOUT 13.77.53.32:443\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Users\\\\Andrew\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:183482:25)\\n    at createCustomizeError (C:\\\\Users\\\\Andrew\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:183487:10)\\n    at AzureResourceMananger.deployLuisResource (C:\\\\Users\\\\Andrew\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:184215:13)\"}",
+    "CREATE_LUIS_ERROR - FetchError - request to https://management.azure.com/subscriptions/fa9881c6-97eb-469a-895f-01d05a730f84/resourceGroups/csu-crimebot4/providers/Microsoft.CognitiveServices/accounts/csu-crimebot4-luis?api-version=2017-04-18 failed, reason: connect ETIMEDOUT 13.77.53.32:443\n        detail message can see provision.csu-crimebot4.log in your bot folder"
+  ]
+}
